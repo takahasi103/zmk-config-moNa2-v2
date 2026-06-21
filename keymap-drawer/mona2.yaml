@@ -42,7 +42,7 @@ layers:
   - {t: '&to_layer_0 LANGUAGE_1', h: '3'}
   - BACKSPACE
   - {t: ENTER, h: '1'}
-  - {t: ▽, type: trans}
+  - /
   '1':
   - {t: ▽, type: trans}
   - '!'
@@ -69,7 +69,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '*'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '>'
@@ -130,21 +130,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
+  - Ctl+Q
   - {t: ▽, type: trans}
-  - Ctl+Sft+TAB
-  - PRINTSCREEN
-  - Ctl+TAB
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+Ctl+TAB
   - {t: ▽, type: trans}
   - HOME
   - UP ARROW
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+LEFT ARROW
-  - Gui+RIGHT ARROW
-  - Ctl+Gui+LEFT ARROW
-  - Ctl+Gui+RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
@@ -152,9 +152,9 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
-  - Gui+Sft+RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
