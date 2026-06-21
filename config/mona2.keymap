@@ -87,10 +87,10 @@
 
         layer_1 {
             bindings = <
-&trans  &kp EXCLAMATION  &kp HASH  &kp DOLLAR  &kp PERCENT                    &kp AT_SIGN       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE       &trans
-&trans  &trans           &trans    &trans      &kp SQT                &trans  &kp LESS_THAN     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &trans
-&trans  &trans           &trans    &trans      &kp ASTRK    &trans    &trans  &kp GREATER_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &trans
-&trans  &trans           &trans    &trans      &trans       &trans    &trans  &trans                                                                        &trans
+&trans  &kp EXCLAMATION  &kp HASH  &kp DOLLAR         &kp PERCENT                    &kp AT_SIGN       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE       &trans
+&trans  &trans           &trans    &kp DOUBLE_QUOTES  &kp SQT                &trans  &kp LESS_THAN     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &trans
+&trans  &trans           &trans    &trans             &kp ASTRK    &trans    &trans  &kp GREATER_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &trans
+&trans  &trans           &trans    &trans             &trans       &trans    &trans  &trans                                                                        &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
