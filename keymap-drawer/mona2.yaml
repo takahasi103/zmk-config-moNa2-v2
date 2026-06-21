@@ -34,7 +34,7 @@ layers:
   - ','
   - .
   - '-'
-  - LCTRL
+  - ESCAPE
   - LEFT WIN
   - {t: ▽, type: trans}
   - {t: '&to_layer_0 LANGUAGE_2', h: '4'}
